@@ -10,8 +10,8 @@ return [
 
     'defaults' => [
         'guard' => 'admin',
-        'passwords' => 'admin_users',
-        'activations' => 'admin_users',
+        'passwords' => 'users',
+        'activations' => 'users',
     ],
 
     /*

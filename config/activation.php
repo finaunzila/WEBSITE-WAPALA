@@ -36,8 +36,8 @@ return [
             'table' => 'activations',
             'expire' => 60 * 24,
         ],
-        'admin_users' => [
-            'provider' => 'admin_users',
+        'users' => [
+            'provider' => 'users',
             'table' => 'admin_activations',
             'expire' => 60,
         ],

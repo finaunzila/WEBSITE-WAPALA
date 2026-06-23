@@ -3,13 +3,13 @@
                 <div class="container text-center px-4 py-3">
                     <div class="row">
                         <div class="col">
-                            <a href="https://www.instagram.com/wapalaittelkom/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-instagram" style="font-size: 14px;"></i> @wapalaittelkom</a>
+                            <a href="https://www.instagram.com/wapalaittelkom/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-instagram" style="font-size: 14px;"></i> @wapalatelkomuniversity</a>
                         </div>
                         <div class="col">
-                            <a href="https://www.tiktok.com/@wapalaittelkom" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-tiktok" style="font-size: 14px;"></i> @wapalaittelkom</a>
+                            <a href="https://www.tiktok.com/@wapalaittelkom" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-tiktok" style="font-size: 14px;"></i> @wapalatelkomuniversity</a>
                         </div>
                         <div class="col">
-                            <a href="https://www.youtube.com/@wapalaittelkompurwokerto1299" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-youtube" style="font-size: 14px;"></i> Wapala IT Telkom Purwokerto</a>
+                            <a href="https://www.youtube.com/@wapalaittelkompurwokerto1299" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white"><i class="fab fa-youtube" style="font-size: 14px;"></i> Wapala Telkom University Purwokerto</a>
                         </div>
                     </div>
                 </div>

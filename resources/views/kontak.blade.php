@@ -2,10 +2,11 @@
 @section('css')
     <style>
     .wrap{
-        background-image:url('{{ asset('jumbotron.jpg') }}');
+        background-image:url('{{ asset('jumbotron2.jpg') }}');
         width:100%;
         height:40vh;
         background-size:cover;
+        background-position: center 60%;
         position: relative;
     }
 
@@ -52,7 +53,7 @@
                                 <label for="nama_lengkap" class="form-label">Instagram</label>
                             </div>
                             <div class="col-md-9">
-                                <p>: @wapalaittelkom</p>
+                                <p>: wapalatelkomuniversity</p>
                             </div>
                         </div>
                         <div class="row mb-4">
@@ -60,7 +61,7 @@
                                 <label for="tempat_lahir" class="form-label">TikTok</label>
                             </div>
                             <div class="col-md-9">
-                                <p>: wapalaittelkom</p>
+                                <p>: wapalatelkomuniversity</p>
                             </div>
                         </div>
                         <div class="row mb-4">

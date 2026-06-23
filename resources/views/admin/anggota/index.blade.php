@@ -58,14 +58,14 @@
                   ?>
                     <tr>
                         <td>{{ $u->nama }}</td>
-                        <td>{{ $prodi->nama_prodi }} - {{ $u->tahun }}</td>
+                        <td>{{ $u->prodi->nama_prodi ?? '-' }} - {{ $u->tahun }}</td>
                         <td>{{ $u->nia }}</td>
                         @if ($u->jenis_kelamin === 'L')
                         <td><i class="bx bx-male-sign"></i> ( {{ $u->jenis_kelamin }} )</td>
                         @else
                         <td><i class="bx bx-female-sign"></i> ( {{ $u->jenis_kelamin }} )</td>
                         @endif
-                        <td>{{ $status->nama_status }}</td>
+                        <td>{{ $u->status->nama_status ?? '-' }}</td>
                         <td>
                             <a href="{{ route('user.edit', $u->id) }}" class="btn btn-sm btn-warning text-white me-2 mb-2 mt-2"><i class="ri-edit-box-line"></i></a>
                             <form action="{{ route('user.destroy', $u->id) }}" method="post">

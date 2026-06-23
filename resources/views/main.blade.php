@@ -34,8 +34,18 @@
         }
 
         .divisi{
-            width: 130px;
-            height: 130px;
+            width: 200px;
+            height: 500px;
+        }
+         .btn-primary {
+        background-color: #0b5ed7;
+        border-color: #0b5ed7;
+        transition: 0.25s ease;
+        }
+
+        .btn-primary:hover {
+        background-color: #084298;
+        border-color: #084298;
         }
     </style>
 @endsection
@@ -43,7 +53,7 @@
 <div class="jumbotron m-0">
                 <h1 class="display-3 fw-bold">WAPALA Telkom University</h1>
                 <p><em>~ Hamemayu Hayuning Bawana ~</em></p>
-                @if ($oprec->oprec != 0)
+                @if (true)
                     <small class="text-muted">Tertarik ? Daftar Sekarang Juga! </small><br>
                     <a href="{{ route('pendaftaran.index') }}" class="btn btn-primary mt-1">Open Recruitment {{ now()->year }}</a>
                 @endif
@@ -65,8 +75,8 @@
             <div class="col">
                 <img src="{{ asset('siapakami2.png') }}" class="img-fluid mx-auto" alt="">
             </div>
-            <div class="col mt-5 pt-5">
-                <h2 class="mb-4 mt-5 pt-5">Siapa Kami ?</h2>
+            <div class="col mt-5 pt-3">
+                <h2 class="mb-4">Siapa Kami ?</h2>
                 <p>
                     Kami adalah WAPALA (Wahana Pencinta Alam) dibentuk pada 28 September 2004 dengan nama Wapala Akatel
                 </p>
@@ -87,16 +97,9 @@
     </div>
 </section>
 <section class="mt-1">
-    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('parallaxx.png') }}">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('tes.png') }}">
         <div class="container text-center py-5 my-5">
-            <div class="row">
-                @foreach ($divisi as $d)
-                    <div class="col mt-5 pt-2">
-                        <img src="{{ asset('storage/logo-divisi/' . $d->logo) }}" alt="" class="img-fluid divisi">
-                        <h3 class="mt-4 text-white">{{ $d->nama_divisi }}</h3>
-                    </div>
-                @endforeach
-            </div>
+            <
         </div>
     </div>
 </section>
